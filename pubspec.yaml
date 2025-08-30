@@ -1,0 +1,24 @@
+name: solo_leveling_habit_game
+description: Game interaktif ala Solo Leveling untuk meningkatkan level lewat kebiasaan.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  flutter_local_notifications: ^12.0.4
+  android_alarm_manager_plus: ^3.0.4
+  intl: ^0.19.0
+  google_fonts: ^6.1.0
+  animated_text_kit: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
